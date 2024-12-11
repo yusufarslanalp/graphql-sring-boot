@@ -4,6 +4,7 @@
 :source-highlighter: prettify
 
 This project was forked from https://github.com/spring-guides/gs-graphql-server[gs-graphql-server]
-There is a tutorial for the forked project in https://spring.io/guides/gs/graphql-server [spring.io]
+
+There is a tutorial for the forked project in https://spring.io/guides/gs/graphql-server[spring.io]
 
 There are queries and mutations in. This project has query and mutation example.
