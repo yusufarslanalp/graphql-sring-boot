@@ -1,6 +1,7 @@
 type Query {
     bookById(id: ID): Book
     getBook: Book
+    getSeller: Seller
 }
 
 type Mutation {
@@ -23,4 +24,13 @@ type Author {
     id: ID
     firstName: String
     lastName: String
+}
+
+type Seller {
+    name: String
+    product: Product
+}
+
+type Product {
+    fullName: String
 }
